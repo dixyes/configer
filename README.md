@@ -12,7 +12,7 @@
 
 ```ini
 configer.conffile_path=/path/to/that.toml
-configer.namespace=/somenamespace
+configer.namespace=somenamespace
 ```
 
 ### Use in PHP code

@@ -1,0 +1,2 @@
+.set fpmArgs -dextension=/home/dixyes/swplay/configer/.libs/configer.so -dconfiger.conffile_path=/home/dixyes/swplay/configer/config.toml -dconfiger.namespace=letest
+.d

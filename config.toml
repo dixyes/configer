@@ -1,0 +1,78 @@
+# ulimate test file 
+
+[most_common]
+aaaa1 = "aaaa"
+aaaa2 = "asaa"
+aaaa3 = "aaaa"
+aaaa4 = "aaaa"
+
+[ string ]
+
+escapes = "<html>\r\n\t<head><title>simple test</title></head>\r\n\t<body><h1>simple test page</h1></body>\r\n</html>"
+hanzi = "\u6C49\u5B57"
+hanziuft8 = "汉字"
+multiline = """
+ceshiceshi
+CeshiCeshi
+cesi\
+ads
+"""
+singlequote='\t\r\nCMD /K "C:\windows\malware.exe"\r\n\\'
+
+[ integer ]
+one = 1
+neg_one = -1
+intmax = 2147483647
+neg_intmax = -2147483648
+over_intmax = 2147483648
+uintmax = 4294967295
+over_uintmax = 4294967296
+llmax = 9223372036854775808
+neg_llmax = -9223372036854775807
+
+underscored = 392_148_127_438_246_871
+
+# toml 0.5.0 things
+cafebabe = 0xcafebabe
+neg_cafebabe = -0xcafebabe
+deadbeef = 0xdeadbeef
+undescore_deadbeef = 0xdeadbeef
+
+oct1 = 0o1234151456
+oct2 = 0o755
+
+bin = 0b10_010_01011110_010110_010_0_01
+
+[ float ]
+
+one = 1.0
+neg_one = -1.0
+pie = 4.123456
+
+big = 1.79769313486231570814527423731704357e+308
+
+[ bool ]
+
+flase = true
+ture = false
+
+[ date ]
+
+date = "not implemented(wont implement in very long time)"
+
+[ array ]
+
+strings = ["1","2","","4",]
+this_is_not_regex_lang = [ [ [1,2], [3,4] ], [ [4,3], [2,1] ] ]
+
+
+tables1 = [ { x = 1, y = 2, z = 3 },
+           { x = 7, y = 8, z = 9 },
+           { x = 2, y = 4, z = 8 } ]
+
+[[array.tables2]]
+nothing = 'wow!'
+[[array.tables2]]
+nothing = 'amazing!'
+
+

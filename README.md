@@ -30,3 +30,7 @@ var_dump(\somenamesapce\getConfig());
 
 ## license
 MIT
+
+## acknowledgement
+
+This project used cktan's [tomlc99](https://github.com/cktan/tomlc99) as it's parser.
